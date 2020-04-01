@@ -6,6 +6,8 @@ Duration: 2 hours
 
 This was built during a hackathon. You can choose between calculating tips and splitting bills among your party.
 
+You can view it at https://hackathon-calculator.web.app/
+
 Initial view:
 <br />
 <img src=public/images/Home.png width="400" alt="initial view"/> 
