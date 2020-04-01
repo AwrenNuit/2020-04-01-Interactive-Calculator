@@ -1,0 +1,59 @@
+.tip-grid-container {
+  display: grid;
+  grid-template-areas:
+    'label1 input1'
+    'label2 input2';
+  padding: 20px;
+  width: 250px;
+  border: 3px inset pink;
+  border-radius: 4px;
+  background-color: #f2eecb;
+}
+
+.input {
+  width: 100px;
+  margin: 10px 0;
+}
+.input1 {
+  grid-area: input1;
+}
+
+.input2 {
+  grid-area: input2;
+}
+
+.input-label1 {
+  grid-area: label1;
+}
+
+.input-label2 {
+  grid-area: label2;
+}
+
+.label {
+  margin: 10px 0;
+}
+
+.tip, .total {
+  position: relative;
+  top: 20px;
+  display: inline-block;
+  padding: 3px;
+  border-radius: 4px;
+  font-weight: bold;
+  background-color: #ffe3e8;
+  box-shadow: 0 0 10px pink;
+  box-shadow: 0 0 30px #ffb7c3;
+}
+
+.tip {
+  min-width: 100px;
+  font-size: 1.2em;
+  left: 90px;
+}
+
+.total {
+  min-width: 200px;
+  font-size: 1.4em;
+  left: 40px;
+}

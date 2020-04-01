@@ -1,0 +1,7 @@
+.home-radio-container {
+  padding: 20px;
+  width: 250px;
+  border: 3px inset pink;
+  border-radius: 4px;
+  background-color: #f2eecb;
+}

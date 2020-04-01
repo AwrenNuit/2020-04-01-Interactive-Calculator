@@ -1,0 +1,35 @@
+body {
+  font-family: 'Comic Neue', cursive;
+  background: linear-gradient(to right, #584466, #392944);
+  background-repeat: no-repeat;
+  height: 100vh;
+  animation: bgScroll 10s ease infinite;
+  background-size: 800%;
+}
+
+h1 {
+  text-decoration: underline;
+  color: pink;
+}
+
+.calc-container {
+  display: inline-block;
+  border: 6px inset #ffe8eb;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.centering-div {
+  display: inline-block;
+}
+
+.main-container {
+  text-align: center;
+}
+
+@keyframes bgScroll {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
